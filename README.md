@@ -1,3 +1,15 @@
+Has anyone managed to resolve this error?
+
+ModuleNotFoundError                       Traceback (most recent call last)
+<ipython-input-1-055c46a5621d> in <cell line: 6>()
+      4 import sys
+      5 import fileinput
+----> 6 from pyngrok import ngrok, conf
+      7 
+      8 Use_Cloudflare_Tunnel = False #@param {type:"boolean"}
+
+ModuleNotFoundError: No module named 'pyngrok'
+
 # Stable Diffusion web UI
 A browser interface based on Gradio library for Stable Diffusion.
 
